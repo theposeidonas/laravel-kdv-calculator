@@ -115,6 +115,13 @@ Fonksiyon size her zaman bir float şeklinde veri döndürür. Noktadan sonra ma
 
 ### Changelog
 
+#### V1.0.1
+
+**20 Mart 2024**
+
+- Geri dönüşlerde string olarak dönen veriler float'a çevirildi
+
+
 #### V1.0.0
 
 **20 Mart 2024**

@@ -30,8 +30,8 @@ class KdvCalculator
         if ($value <= 0) {
             return array(
                 'total' => $value,
-                'kdv' => 0,
-                'net' => 0
+                'kdv' => 0.0,
+                'net' => 0.0
             );
         }
         else
@@ -39,9 +39,9 @@ class KdvCalculator
             $net = number_format($value/(1+$percent/100), 2);
             $kdv = $value - $net;
             return array(
-                'total' => $value,
-                'kdv' => $kdv,
-                'net' => $net
+                'total' => (float) $value,
+                'kdv' => (float) $kdv,
+                'net' => (float) $net
             );
         }
     }
@@ -59,8 +59,8 @@ class KdvCalculator
         if ($value <= 0) {
             return array(
                 'total' => $value,
-                'kdv' => 0,
-                'net' => 0
+                'kdv' => 0.0,
+                'net' => 0.0
             );
         }
         else
@@ -68,9 +68,9 @@ class KdvCalculator
             $total = number_format($value*(1+$percent/100), 2);
             $kdv = $total - $value;
             return array(
-                'total' => $total,
-                'kdv' => $kdv,
-                'net' => $value
+                'total' => (float) $total,
+                'kdv' => (float) $kdv,
+                'net' => (float) $value
             );
         }
     }

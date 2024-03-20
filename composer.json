@@ -3,7 +3,7 @@
     "description": "KDV hesaplamak için oluşturulmuş Laravel Paketi",
     "keywords": ["laravel", "KDV", "VAT", "TAX"],
     "license": "MIT",
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "autoload": {
         "psr-4": {
             "Theposeidonas\\LaravelKdvCalculator\\": "src/"
