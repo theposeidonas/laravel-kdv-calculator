@@ -32,7 +32,14 @@ class Test extends TestCase
 
     public function test()
     {
-        $bool = KDV::test();
-        $this->assertTrue($bool);
+        $result = KDV::calculate(100);
+        $this->assertEquals(100, $result['total']);
+        $this->assertEquals(83.33, $result['net']);
+        $this->assertEquals(16.67, $result['kdv']);
+        $result = KDV::calculateNet(83.33);
+        $this->assertEquals(100, $result['total']);
+        $this->assertEquals(83.33, $result['net']);
+        $this->assertEquals(16.67, $result['kdv']);
     }
+
 }
