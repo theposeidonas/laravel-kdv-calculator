@@ -32,7 +32,7 @@
         "test": "phpunit"
     },
     "require": {
-        "laravel/framework": "^9.0|^10|^11"
+        "laravel/framework": "^9|^10|^11"
     },
     "require-dev": {
         "orchestra/workbench": "^7.3|^8.5|9.1.*",
