@@ -27,7 +27,7 @@ jobs:
             testbench: 8.*
 
           - laravel: 11.*
-            testbench: 9.x-dev
+            testbench: 9.1.*
 
 
         exclude:
