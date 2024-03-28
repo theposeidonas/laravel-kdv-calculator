@@ -4,6 +4,8 @@
     "keywords": ["laravel", "KDV", "VAT", "TAX"],
     "license": "MIT",
     "version": "v1.0.1",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Theposeidonas\\LaravelKdvCalculator\\": "src/"
@@ -39,6 +41,5 @@
     "require-dev": {
         "orchestra/workbench": "^7.3|^8.5|9.x-dev",
         "phpunit/phpunit": "^9.0|^10"
-    },
-    "prefer-stable": true
+    }
 }
