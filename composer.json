@@ -31,9 +31,12 @@
     "scripts": {
         "test": "phpunit"
     },
+    "require": {
+        "laravel/framework": "^9.0|^10|^11"
+    },
     "require-dev": {
-        "orchestra/testbench": "^9.0.0",
-        "phpunit/phpunit": "^10.0.0"
+        "orchestra/workbench": "^7.3|^8.5|9.x-dev",
+        "phpunit/phpunit": "^9.0|^10"
     },
     "prefer-stable": true
 }
